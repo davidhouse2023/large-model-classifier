@@ -40,7 +40,6 @@ MODEL_PATH = '/opt/ailab_mnt1/LLM_MODELS/LLAMA/Qwen2.5_7B_Instruct'
 
 if __name__ == '__main__':
 
-    # path = "/ailab_mnt/weili.zhang/llm_classifier/instruction.jsonl"
     train_path="./data/instruction.jsonl"
     valid_path="./data/valid_data_code_zh.jsonl"
     batch_size = 32
